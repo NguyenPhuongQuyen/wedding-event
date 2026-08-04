@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Your Wedding Invitation Card</title>
+    <link rel="stylesheet" href="digital-cards.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="shop-header">
+        <h1>The Invitation Suite</h1>
+        <p>Browse and choose the perfect visual opening to your wedding story archetype</p>
+    </header>
+
+    <div class="search-filter-container">
+        <div class="search-bar-wrapper">
+            <input type="text" id="cardSearchInput" placeholder="Search by design name, tags, themes (e.g., Gold, Rustic, Minimalist)...">
+        </div>
+        
+        <div class="category-tags" id="categoryButtonsContainer">
+            <button class="filter-btn active" data-category="all">View All</button>
+            <button class="filter-btn" data-category="minimalist">Minimalist</button>
+            <button class="filter-btn" data-category="vintage">Vintage</button>
+            <button class="filter-btn" data-category="floral">Floral</button>
+            <button class="filter-btn" data-category="modern">Modern</button>
+            <button class="filter-btn" data-category="traditional">Traditional</button>
+        </div>
+    </div>
+
+    <main class="pinterest-grid" id="cardsGridContainer">
+        </main>
+
+    <script type="module" src="digital-cards.js" defer>
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,1195 @@
+main{
+    width: 100%;
+}
+
+.digital-wedding {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+  position: relative;
+  background-color: #0a192f;
+  overflow-x: hidden;
+}
+
+.digital-wedding .app {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+  margin-bottom: -0.43px;
+  margin-right: -0.4px;
+  background-color: #0a192f;
+}
+
+.digital-wedding .div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.digital-wedding .section {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 680px;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 25, 47, 0.72) 0%,
+    rgba(10, 25, 47, 0.45) 40%,
+    rgba(10, 25, 47, 0.8) 100%
+  );
+}
+
+.digital-wedding .container {
+  position: absolute;
+  top: 560px;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(10, 25, 47, 1) 100%
+  );
+}
+
+.digital-wedding .container-2 {
+  background-image: url("../assets/photo-1780542900375-0cf459e38fbb.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 680px;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 24px 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.digital-wedding .paragraph-margin {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.digital-wedding .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #c5a059;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 3.3px;
+  line-height: 16.5px;
+  white-space: nowrap;
+}
+
+.digital-wedding .heading {
+  width: 100%;
+  height: 139px;
+  padding: 0px 0px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.digital-wedding .where-extraordinary {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Playfair Display-Bold", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 60.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 65.5px;
+}
+
+.digital-wedding .span {
+  font-weight: 700;
+  color: #faf3e0;
+}
+
+.digital-wedding .text-wrapper-2 {
+  font-family: "Playfair Display-Italic", Helvetica;
+  font-style: italic;
+  color: #c5a059;
+}
+
+.digital-wedding .container-3 {
+  display: flex;
+  width: 240px;
+  height: 72px;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 24px 0px;
+  position: relative;
+}
+
+.digital-wedding .text {
+  position: absolute;
+  top: 36px;
+  left: 27px;
+  width: 72px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(197, 160, 89, 1) 100%
+  );
+}
+
+.digital-wedding .div-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.digital-wedding .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #c5a059;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.digital-wedding .text-2 {
+  position: absolute;
+  top: 36px;
+  left: 141px;
+  width: 72px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(197, 160, 89, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.digital-wedding .vietnam-s-most-wrapper {
+  padding: 0px 0px 40px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.digital-wedding .vietnam-s-most {
+  position: relative;
+  width: 520px;
+  margin-top: -1px;
+  font-family: "Cormorant Garamond-LightItalic", Helvetica;
+  font-weight: 300;
+  font-style: italic;
+  color: #faf3e0bf;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.9px;
+}
+
+.digital-wedding .container-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.digital-wedding .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 36px;
+  position: relative;
+  align-self: stretch;
+  flex: 0 0 auto;
+  background-color: #c5a059;
+  border-radius: 2px;
+}
+
+.digital-wedding .explore-our-halls {
+  margin-top: -0.2px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #060f1e;
+  font-size: 12px;
+  letter-spacing: 1.8px;
+  line-height: 18px;
+  position: relative;
+  width: fit-content;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.digital-wedding .digital-cards-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 36px;
+  position: relative;
+  align-self: stretch;
+  flex: 0 0 auto;
+  border-radius: 2px;
+  border: 0.8px solid;
+  border-color: #c5a059;
+}
+
+.digital-wedding .digital-cards {
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #c5a059;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1.8px;
+  line-height: 18px;
+  position: relative;
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.digital-wedding .container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #060f1e;
+  border-top-width: 0.8px;
+  border-top-style: solid;
+  border-bottom-width: 0.8px;
+  border-bottom-style: solid;
+  border-color: #c5a05933;
+}
+
+.digital-wedding .container-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 56px 40px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.digital-wedding .container-6 {
+  display: grid;
+  grid-template-columns: 196.6px 196.6px 196.6px 196.6px;
+  grid-template-rows: 152.65px;
+  height: fit-content;
+}
+
+.digital-wedding .container-7 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 36px 20px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: #c5a0591a;
+}
+.container-6 :last-child{
+    border-color: transparent;
+}
+
+.digital-wedding .div-wrapper-2 {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.digital-wedding .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #faf3e0;
+  font-size: 34.7px;
+  text-align: center;
+  letter-spacing: -0.69px;
+  line-height: 34.7px;
+  white-space: nowrap;
+}
+
+.digital-wedding .paragraph {
+  display: flex;
+  flex-direction: column;
+  width: 155.8px;
+  height: 26px;
+  align-items: center;
+  padding: 6px 0px 0px;
+  position: relative;
+}
+
+.digital-wedding .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #c5a059;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.5px;
+  white-space: nowrap;
+}
+
+.digital-wedding .paragraph-2 {
+  display: flex;
+  width: 155.8px;
+  height: 21px;
+  align-items: center;
+  padding: 4px 0px 0px;
+  margin-bottom: -1.35px;
+  flex-direction: column;
+  position: relative;
+}
+
+.digital-wedding .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #c8bfa8;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0.88px;
+  line-height: 16.5px;
+  white-space: nowrap;
+}
+
+.digital-wedding .paragraph-3 {
+  display: flex;
+  width: 156.6px;
+  height: 26px;
+  align-items: center;
+  padding: 6px 0px 0px;
+  flex-direction: column;
+  position: relative;
+}
+
+.digital-wedding .conferences-galas-wrapper {
+  display: flex;
+  width: 156.6px;
+  height: 21px;
+  align-items: center;
+  padding: 4px 0px 0px;
+  margin-bottom: -1.35px;
+  flex-direction: column;
+  position: relative;
+}
+
+.digital-wedding .container-margin-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-bottom-width: 0.8px;
+  border-bottom-style: solid;
+  border-color: #c5a05926;
+  background: linear-gradient(
+    117deg,
+    rgba(15, 36, 68, 1) 0%,
+    rgba(10, 25, 47, 1) 100%
+  );
+}
+
+.digital-wedding .container-11 {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.digital-wedding .send-beautiful-wrapper {
+  width: 700px;
+  height: 53px;
+  padding: 14px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.digital-wedding .send-beautiful {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Playfair Display-SemiBold", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 39px;
+  white-space: nowrap;
+}
+
+.digital-wedding .text-wrapper-7 {
+  font-weight: 600;
+  color: #faf3e0;
+}
+
+.digital-wedding .text-wrapper-8 {
+  font-family: "Playfair Display-SemiBoldItalic", Helvetica;
+  font-weight: 600;
+  font-style: italic;
+  color: #c5a059;
+}
+
+.digital-wedding .explore-our-curated-wrapper {
+  display: flex;
+  width: 700px;
+  height: 71px;
+  align-items: center;
+  padding: 16px 0px 28px;
+  flex-direction: column;
+  position: relative;
+}
+
+.digital-wedding .explore-our-curated {
+  margin-top: -1px;
+  font-family: "Cormorant Garamond-LightItalic", Helvetica;
+  font-weight: 300;
+  font-style: italic;
+  color: #c8bfa8;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+  width: fit-content;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.digital-wedding .button-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 42.5px;
+}
+
+.digital-wedding .explore-digital-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  left: 228px;
+  width: 244px;
+  height: 42px;
+  display: flex;
+  background-color: #c5a059;
+  border-radius: 2px;
+}
+
+.digital-wedding .explore-digital {
+  margin-top: 13.6px;
+  width: 171px;
+  height: 17px;
+  margin-left: 37px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #060f1e;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 1.65px;
+  line-height: 16.5px;
+  white-space: nowrap;
+}
+
+.digital-wedding .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+
+.digital-wedding .palace-silhouette-wrapper {
+  display: flex;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #faf3e0;
+  background-repeat: repeat-x;
+  background-image: url("../assets/9f6586f1-78d0-4811-8c4d-314d261bdf4b.svg");
+}
+
+.digital-wedding .palace-silhouette {
+  position: relative;
+  width: 100%;
+  height: 101.07px;
+}
+
+.digital-wedding .vector {
+  position: absolute;
+  width: 100%;
+  height: 72.86%;
+  top: 27.14%;
+  left: 0;
+}
+
+.digital-wedding .container-margin {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.digital-wedding .container-12 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 56px 0px 0px;
+  position: relative;
+  top: -2px;
+  background-color: #0a192f;
+  border-top-width: 0.8px;
+  border-top-style: solid;
+  border-color: #c5a05926;
+}
+
+.digital-wedding .container-13 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 40px;
+  position: relative;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.digital-wedding .container-14 {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.digital-wedding .container-15 {
+  position: relative;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.digital-wedding .container-16 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.digital-wedding .icon-wrapper {
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 14px;
+  border: 0.8px solid;
+  border-color: #c5a059;
+}
+
+.digital-wedding .icon {
+  position: relative;
+  width: 12px;
+  height: 12px;
+}
+
+.digital-wedding .img {
+  position: absolute;
+  width: 98.38%;
+  height: 98.73%;
+  top: 0;
+  left: 0;
+}
+
+.digital-wedding .container-17 {
+  display: flex;
+  flex-direction: column;
+  width: 178.68px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.digital-wedding .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Playfair Display-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #faf3e0;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.digital-wedding .wedding-convention {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #c5a059;
+  font-size: 8px;
+  letter-spacing: 2.4px;
+  line-height: 12px;
+  white-space: nowrap;
+}
+
+.digital-wedding .paragraph-margin-2 {
+  padding: 18px 0px 0px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.digital-wedding .p {
+  position: relative;
+  width: 280px;
+  margin-top: -1px;
+  font-family: "Cormorant Garamond-LightItalic", Helvetica;
+  font-weight: 300;
+  font-style: italic;
+  color: #c8bfa8;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+}
+
+.digital-wedding .container-18 {
+  position: relative;
+  width: 367.2px;
+  height: 60px;
+}
+
+.digital-wedding .container-19 {
+  position: relative;
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.digital-wedding .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #faf3e0;
+  font-size: 12px;
+  letter-spacing: 1.8px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.digital-wedding .container-20 {
+  display: flex;
+  flex-direction: column;
+  width: 367.2px;
+  height: 200px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 18px 0px 0px;
+  position: relative;
+  margin-bottom: -3px;
+}
+
+.digital-wedding .link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 2px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.digital-wedding .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #faf3e0bf;
+  font-size: 13px;
+  letter-spacing: 0.52px;
+  line-height: 19.5px;
+  white-space: nowrap;
+}
+
+.digital-wedding .text-3 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background-color: #c5a059;
+}
+
+.digital-wedding .container-21 {
+  position: relative;
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.digital-wedding .container-22 {
+  position: relative;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.digital-wedding .container-margin-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 52px 0px 0px;
+  flex: 0 0 auto;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.digital-wedding .container-23 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(197, 160, 89, 0.4) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.digital-wedding .container-24 {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0px 28px;
+  position: relative;
+}
+
+.digital-wedding .element-grandeur-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.digital-wedding .element-grandeur {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #c8bfa859;
+  font-size: 12px;
+  letter-spacing: 0.48px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.digital-wedding .container-25 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.digital-wedding .link {
+}
+
+.digital-wedding .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #c8bfa859;
+  font-size: 11px;
+  letter-spacing: 0.55px;
+  line-height: 16.5px;
+  white-space: nowrap;
+}
+
+.digital-wedding .header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0a192f;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-width: 0.8px;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-color: #c5a05926;
+}
+
+.digital-wedding .container-26 {
+  display: flex;
+  height: 72px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 40px;
+  position: relative;
+  width: 100%;
+}
+
+.digital-wedding .container-27 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.digital-wedding .container-28 {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 16px;
+  border: 0.8px solid;
+  border-color: #c5a059;
+}
+
+.digital-wedding .vector-wrapper {
+  position: relative;
+  width: 14px;
+  height: 14px;
+}
+
+.digital-wedding .container-29 {
+  display: flex;
+  flex-direction: column;
+  width: 237.93px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.digital-wedding .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Playfair Display-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #faf3e0;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.digital-wedding .wedding-convention-wrapper {
+  display: flex;
+  width: 237.93px;
+  height: 17px;
+  align-items: center;
+  padding: 3px 0px 0px;
+  flex-direction: column;
+  position: relative;
+}
+
+.digital-wedding .wedding-convention-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #c5a059;
+  font-size: 9px;
+  text-align: center;
+  letter-spacing: 3.15px;
+  line-height: 13.5px;
+  white-space: nowrap;
+}
+
+.digital-wedding .book-now-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 24px;
+  background-color: #c5a059;
+  border-radius: 2px;
+}
+
+.digital-wedding .book-now {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #060f1e;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 1.65px;
+  line-height: 16.5px;
+  white-space: nowrap;
+}
+
+.digital-wedding .container-30 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-top-width: 0.8px;
+  border-top-style: solid;
+  border-color: #c5a0591a;
+}
+
+.digital-wedding .container-31 {
+    height: 3rem;
+    padding: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#burger-nav{
+    padding: 0.5rem;
+    display: none;
+}
+
+.digital-wedding .text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #faf3e0bf;
+  font-size: 12px;
+  letter-spacing: 1.44px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.digital-wedding .text-4 {
+  position: absolute;
+  top: 19px;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background-color: #c5a059;
+}
+
+
+.digital-wedding .chev-down {
+  position: relative;
+  width: 13px;
+  height: 13px;
+}
+
+.digital-wedding .vector-2 {
+  position: absolute;
+  width: 79.17%;
+  height: 66.67%;
+  top: 33.33%;
+  left: 20.83%;
+}
+
+/* Inject the following accessibility and interactive-state styles after the original generated CSS. */
+
+.digital-wedding a:focus-visible,
+.digital-wedding button:focus-visible {
+  outline: 2px solid #faf3e0 !important;
+  outline-offset: 3px;
+}
+
+.digital-wedding .link {
+  color: inherit;
+}
+
+.digital-wedding .button,
+.digital-wedding .digital-cards-wrapper,
+.digital-wedding .explore-digital-wrapper,
+.digital-wedding .book-now-wrapper,
+.digital-wedding .link {
+  cursor: pointer;
+}
+
+.digital-wedding .button:hover,
+.digital-wedding .explore-digital-wrapper:hover,
+.digital-wedding .book-now-wrapper:hover {
+  background-color: #d2af6b;
+}
+
+.digital-wedding .digital-cards-wrapper:hover {
+  background-color: #c5a0591a;
+}
+
+.digital-wedding .link:hover .text-wrapper-11,
+.digital-wedding .link-2:hover .text-wrapper-12,
+.digital-wedding .link-3:hover .text-wrapper-14,
+.digital-wedding .link-4:hover .text-wrapper-14,
+.digital-wedding .link-5:hover .text-wrapper-14,
+.digital-wedding .link-6:hover .text-wrapper-14,
+.digital-wedding .link-7:hover .text-wrapper-14,
+.digital-wedding .link-8:hover .text-wrapper-14,
+.digital-wedding .link-9:hover .text-wrapper-14,
+.digital-wedding .link-10:hover .text-wrapper-14 {
+  color: #c5a059;
+}
+
+.digital-wedding .button:active,
+.digital-wedding .digital-cards-wrapper:active,
+.digital-wedding .explore-digital-wrapper:active,
+.digital-wedding .book-now-wrapper:active {
+  transform: translateY(1px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .digital-wedding .button,
+  .digital-wedding .digital-cards-wrapper,
+  .digital-wedding .explore-digital-wrapper,
+  .digital-wedding .book-now-wrapper,
+  .digital-wedding .link,
+  .digital-wedding .link-2,
+  .digital-wedding .link-3,
+  .digital-wedding .link-4,
+  .digital-wedding .link-5,
+  .digital-wedding .link-6,
+  .digital-wedding .link-7,
+  .digital-wedding .link-8,
+  .digital-wedding .link-9,
+  .digital-wedding .link-10 {
+    transition: none;
+  }
+}
+
+@media (max-width: 1280px){
+    .digital-wedding .container-14{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 1200px){
+    #long-nav{
+        display: none;
+    }
+    #burger-nav{
+        display: block;
+    }
+}
+
+@media (max-width: 875px){
+ .container-6 {
+        display: flex !important;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container-7{
+        border: none !important;
+    }
+}
+
+@media (max-width: 600px){
+    .digital-wedding .container-14, .container-6 {
+        display: flex !important;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Reservations</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="landing-section">
+        <div class="landing-overlay"></div>
+        <div class="landing-content">
+            <span class="subtitle">Welcome to Elegance</span>
+            <h1>Contact &amp; Location</h1>
+            <p class="tagline">Let us host your perfect day filled with beautiful memories.</p>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    </div>
+                    <h3>Phone &amp; Inquiries</h3>
+                    <p class="info-value">+1 (555) 839-2947</p>
+                    <p class="info-desc">Mon - Sun: 9:00 AM - 9:00 PM</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <h3>Our Sanctuary</h3>
+                    <p class="info-value">104 Golden Petals Lane</p>
+                    <p class="info-desc">Grand Ballroom District, NY 10014</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Book A Consultation or Venue Tour</h2>
+                <p>Secure your desired date and let our planners craft your fairy tale reception</p>
+            </div>
+
+            <form id="reservationForm" class="reservation-form" novalidate>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" placeholder="e.g., Eleanor Vance" required>
+                        <span class="error-msg">Please enter your name</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="e.g., eleanor@example.com" required>
+                        <span class="error-msg">Please enter a valid email address</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="e.g., (555) 000-0000" required>
+                        <span class="error-msg">Please enter your phone number</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="weddingDate">Desired Wedding Date</label>
+                        <input type="date" id="weddingDate" required>
+                        <span class="error-msg">Please select a valid future date</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="guestCount">Estimated Guest Count</label>
+                        <select id="guestCount" required>
+                            <option value="" disabled selected>Select headcount range</option>
+                            <option value="50-100">Intimate (50 - 100 guests)</option>
+                            <option value="100-250">Classic (100 - 250 guests)</option>
+                            <option value="250-500">Grand (250 - 500 guests)</option>
+                            <option value="500+">Royal Gala (500+ guests)</option>
+                        </select>
+                        <span class="error-msg">Please choose your estimated guest size</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="seatingStyle">Preferred Arrangement</label>
+                        <select id="seatingStyle">
+                            <option value="banquet">Traditional Banquet Seating</option>
+                            <option value="cocktail">Lounge &amp; Cocktail Style</option>
+                            <option value="tasting">Fine Dining Long Tables</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="specialNotes">Special Requests &amp; Visions</label>
+                    <textarea id="specialNotes" rows="4" placeholder="Tell us about your theme, culinary choices, or dietary accommodations..."></textarea>
+                </div>
+
+                <div class="form-submit">
+                    <button type="submit" class="btn-primary">Request Invitation &amp; Hold Date</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="subscribe-section">
+        <div class="subscribe-container">
+            <h2>Have Questions? Or Wish to Receive Eternal Inspiration?</h2>
+            <p>Subscribe to our seasonal lookbooks, exclusive culinary tasting dates, and curated wedding checklist guides.</p>
+            
+            <form id="subscribeForm" class="subscribe-form" novalidate>
+                <div class="subscribe-field-group">
+                    <input type="email" id="subEmail" placeholder="Enter your love story email here..." required>
+                    <button type="submit" class="btn-secondary">Subscribe</button>
+                </div>
+                <span class="error-msg text-center" id="subError">Please enter a valid email address</span>
+            </form>
+        </div>
+    </section>
+
+    <div id="toastNotification" class="toast">
+        <span id="toastMessage">Submission Successful!</span>
+    </div>
+
+    <script src="contact.js" defer></script>
+</body>
+</html>

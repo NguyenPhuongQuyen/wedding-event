@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "title": "Floral Abstract Bold Card",
+    "image": "../assets/il_1588xN.2254554515_2cbo.webp",
+    "category": "Floral",
+    "tags": [
+      "Abstract",
+      "Bold",
+      "Elegance"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Modern Vintage Style Botanical Card",
+    "image": "../assets/il_1588xN.4578870480_truf.webp",
+    "category": "Modern",
+    "tags": [
+      "Vintage Style",
+      "Botanical",
+      "Handmade"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Modern Luxury Bold Card",
+    "image": "../assets/il_1588xN.5018375988_enk9.webp",
+    "category": "Modern",
+    "tags": [
+      "Luxury",
+      "Bold",
+      "Art"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Floral Handmade Minimal Card",
+    "image": "../assets/il_1588xN.5543837439_7h2n.webp",
+    "category": "Floral",
+    "tags": [
+      "Handmade",
+      "Minimal",
+      "Bold"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Vintage Botanical Art Card",
+    "image": "../assets/il_1588xN.6057953980_bbj3.webp",
+    "category": "Vintage",
+    "tags": [
+      "Botanical",
+      "Art",
+      "Abstract"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Floral Bold Elegance Card",
+    "image": "../assets/il_1588xN.6057987306_ik5u.webp",
+    "category": "Floral",
+    "tags": [
+      "Bold",
+      "Elegance",
+      "Nature"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Minimalist Art Nature Card",
+    "image": "../assets/il_1588xN.6058272676_k0hx.webp",
+    "category": "Minimalist",
+    "tags": [
+      "Art",
+      "Nature",
+      "Vintage Style"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Vintage Handmade Premium Card",
+    "image": "../assets/il_1588xN.6059407876_kx4t.jpg",
+    "category": "Vintage",
+    "tags": [
+      "Handmade",
+      "Premium",
+      "Gold Leaf"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Vintage Classic Botanical Card",
+    "image": "../assets/il_1588xN.6107478163_5jy0.webp",
+    "category": "Vintage",
+    "tags": [
+      "Classic",
+      "Botanical",
+      "Premium"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Floral Elegance Nature Card",
+    "image": "../assets/il_1588xN.6591094799_1f1o.webp",
+    "category": "Floral",
+    "tags": [
+      "Elegance",
+      "Nature",
+      "Classic"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Traditional Gold Leaf Soft Colors Card",
+    "image": "../assets/il_1588xN.6746930405_ifwl.webp",
+    "category": "Traditional",
+    "tags": [
+      "Gold Leaf",
+      "Soft Colors",
+      "Art"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Modern Minimal Premium Card",
+    "image": "../assets/il_1588xN.7447545683_ofqa.avif",
+    "category": "Modern",
+    "tags": [
+      "Minimal",
+      "Premium",
+      "Gold Leaf"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Floral Minimal Modern Card",
+    "image": "../assets/il_1588xN.7957298050_f2df.webp",
+    "category": "Floral",
+    "tags": [
+      "Minimal",
+      "Modern",
+      "Classic"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Floral Soft Colors Vintage Style Card",
+    "image": "../assets/il_570xN.3325176096_4zju.webp",
+    "category": "Floral",
+    "tags": [
+      "Soft Colors",
+      "Vintage Style",
+      "Bold"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Floral Luxury Nature Card",
+    "image": "../assets/il_fullxfull.7447545683_ofqa.avif",
+    "category": "Floral",
+    "tags": [
+      "Luxury",
+      "Nature",
+      "Elegance"
+    ]
+  }
+]

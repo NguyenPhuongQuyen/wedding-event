@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Feedback & Testimonials</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+
+<div class="container">
+
+    <section class="section-header">
+        <h2>Kind Words From Guests</h2>
+        <p>Real moments and memories shared by our loved ones</p>
+    </section>
+
+    <div class="carousel-container">
+        <div class="carousel-track" id="carouselTrack">
+            <div class="testimonial-card">
+                <div>
+                    <div class="company-logo-placeholder">The Smith Wedding</div>
+                    <p class="testimonial-text">"Everything was absolutely magical. The venue decoration, the music, and the atmosphere were perfect. Thank you for making this day so unforgettable!"</p>
+                </div>
+                <div>
+                    <div class="stars">★★★★★</div>
+                    <div class="profile-container">
+                        <img src="https://picsum.photos/id/64/100/100" alt="Nicholas Smith" class="profile-pic">
+                        <div class="profile-info">
+                            <h4>Nicholas Smith</h4>
+                            <p>Groom's Brother</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div>
+                    <div class="company-logo-placeholder">The Smith Wedding</div>
+                    <p class="testimonial-text">"I haven't been to a wedding this beautiful in years. The organization was flawless, and the food was spectacular. Wishing you a lifetime of love!"</p>
+                </div>
+                <div>
+                    <div class="stars">★★★★★</div>
+                    <div class="profile-container">
+                        <img src="https://picsum.photos/id/91/100/100" alt="Sarah Jenkins" class="profile-pic">
+                        <div class="profile-info">
+                            <h4>Sarah Jenkins</h4>
+                            <p>Maid of Honor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div>
+                    <div class="company-logo-placeholder">The Smith Wedding</div>
+                    <p class="testimonial-text">"Capturing these moments as a guest was so easy because love was truly in the air. A perfect celebration for a perfect couple."</p>
+                </div>
+                <div>
+                    <div class="stars">★★★★☆</div>
+                    <div class="profile-container">
+                        <img src="https://picsum.photos/id/338/100/100" alt="David Miller" class="profile-pic">
+                        <div class="profile-info">
+                            <h4>David Miller</h4>
+                            <p>Close Friend</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div>
+                    <div class="company-logo-placeholder">The Smith Wedding</div>
+                    <p class="testimonial-text">"An elegant affair from start to finish. The vows brought tears to my eyes, and the dance floor was packed all night long!"</p>
+                </div>
+                <div>
+                    <div class="stars">★★★★★</div>
+                    <div class="profile-container">
+                        <img src="https://picsum.photos/id/443/100/100" alt="Emma Watson" class="profile-pic">
+                        <div class="profile-info">
+                            <h4>Emma Watson</h4>
+                            <p>College Friend</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-controls">
+            <button class="control-btn" id="prevBtn">&#10094;</button>
+            <button class="control-btn" id="nextBtn">&#10095;</button>
+        </div>
+    </div>
+
+    <hr style="border: 0; border-top: 1px solid rgba(223,186,107,0.3); margin: 60px 0;">
+
+    <div class="feedback-form-section">
+        <h3>We value your opinion.</h3>
+        <p>Kindly take a moment to tell us what you think.</p>
+
+        <form id="feedbackForm">
+            <div class="rating-input-container">
+                <p>How would you rate your overall experience?</p>
+                <div class="star-rating">
+                    <input type="radio" id="star5" name="rating" value="5" required><label for="star5">★</label>
+                    <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+                    <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+                    <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+                    <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="guestName" placeholder="Your Full Name" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="guestRole" placeholder="Your Relationship (e.g., Friend, Cousin)" required>
+            </div>
+
+            <div class="form-group">
+                <textarea id="guestComment" rows="4" placeholder="Write your blessing or feedback here..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Share my feedback</button>
+        </form>
+    </div>
+
+</div>
+
+<script src="feedback.js" defer></script>
+
+</body>
+</html>
