@@ -1,0 +1,34 @@
+/* Định nghĩa trạng thái "active" cho hiệu ứng gạch chân scaleX */
+.nav-link.active::after { 
+  transform: scaleX(1); 
+}
+
+/*HIỆU ỨNG NÚT HOTLINE (2 vòng tròn lan tỏa)*/
+.ring-pulse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  /* Viền màu xanh đậm để nổi bật trên nền vàng của nút */
+  border: 1.5px solid #0A192F; 
+  pointer-events: none;
+  animation: pulse-ring 2s ease-out infinite;
+}
+
+.pulse-delay {
+  animation-delay: 0.8s;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(2.2); /* Vòng tròn nở to ra gấp 2.2 lần */
+    opacity: 0;
+  }
+}
+
